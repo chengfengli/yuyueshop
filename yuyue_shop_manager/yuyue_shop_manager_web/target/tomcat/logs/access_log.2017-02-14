@@ -1,0 +1,4 @@
+127.0.0.1 - - [14/Feb/2017:17:28:42 +0800] "GET /user/gologin HTTP/1.1" 200 1245 http-bio-8080-exec-1 431
+127.0.0.1 - - [14/Feb/2017:17:28:42 +0800] "GET /js/login.js HTTP/1.1" 304 - http-bio-8080-exec-6 3
+127.0.0.1 - - [14/Feb/2017:17:28:43 +0800] "GET /user/gologin HTTP/1.1" 200 1245 http-bio-8080-exec-7 2
+127.0.0.1 - - [14/Feb/2017:17:28:46 +0800] "POST /user/login HTTP/1.1" 500 14773 http-bio-8080-exec-8 172

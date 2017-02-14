@@ -1,0 +1,95 @@
+*{margin: 0;padding: 0;font-family: "微软雅黑";}
+html,body{width:100%;height: 100%;background: #1E57A5;}
+body{background: #1E57A5;overflow: hidden;}
+#login_box{width: 415px;
+	height: 284px;
+	background: url(../img/login.png) -433px -327px;
+	overflow: hidden;
+	margin: 15% 0 0 40%;
+	border-radius:5px;
+}
+#login_title{
+	padding:7px;
+	text-align: center;
+	color: #fff;;
+}
+#login_table{
+	position: relative;
+	width:100%;
+	height: 100%;
+	border-radius:5px;
+	margin-top: 10px;
+	color: #fff;
+}
+table tr td:nth-child(1){
+	width:80px;
+	text-align: right;
+	color: #fff;
+	padding-right:20px
+}
+table tr td{
+	padding-top:17px;
+}
+input{
+	border:0;
+	border-radius: 5px;
+	padding: 6px;
+	font-size: 14px;
+}
+#account{
+	width:268px;
+}
+#downmenu_ico{
+	width:10px;
+	height: 5px;
+	overflow: hidden;
+	background: url(../img/downmenu_ico.png) center center no-repeat;
+	position: absolute;
+	top:28px;
+	left: 365px;
+	cursor:pointer;
+	padding: 2px;
+}
+#account-list{
+	list-style: none;
+	position: absolute;
+	width: 280px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	overflow: hidden;
+	display: none;
+}
+#account-list li{
+	background: #76B2EC;
+	padding:3px 5px;
+	cursor:pointer;
+}
+#account-list li:hover{
+	background: #8EC1F2;
+}
+#downmenu_ico:hover{
+	background: url(../img/downmenu_hover_ico.png) center center no-repeat;
+}
+#password{
+	width:268px;
+}
+#code{
+	width:104px;
+	float: left;
+}
+#code_content{
+	width:112px;
+	height: 32px;
+	float: left;
+	margin-left:16px;
+	cursor: pointer;
+}
+#loginbtn{
+	width:112px;
+	height:35px;
+	overflow: hidden;
+	margin: 0 0 0 47px;
+	background: url(../img/loginbtn_bg.png);
+	cursor: pointer;
+}
+

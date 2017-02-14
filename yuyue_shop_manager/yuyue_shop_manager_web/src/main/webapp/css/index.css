@@ -1,0 +1,22 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-size: 12px;
+}
+body{
+	padding: 5px 0;
+	background: rgb(234,238,245);
+}
+#head{
+	height: 30px;
+	border: 1px solid red;
+	margin: 3px 7px;
+}
+#layout{
+	width: 99.2%;
+	margin: 0 auto;
+}
+#foot{
+	height: 30px;
+	line-height: 30px;
+}
